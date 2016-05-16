@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alex's site - Contact</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <label for="name">Name</label><br/>
+                <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Enter your name!"/><br/>
+            </div>
+            <div class="row">
+                <label for="email">E-mail</label><br/>
+                <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Give your e-mail address!"/><br/>
+            </div>
+            <div class="row">
+                <label for="message">Message</label><br/>
+                <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="You can write your message to me in this box!"></textarea><br/>
+            </div>
+            <input id="submit_button" type="submit" value="SEND"/>
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; bathoryalex <strong>CodeCool</strong>.
+    </div>
+
+</body>
+</html>
