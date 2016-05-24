@@ -19,17 +19,18 @@
         <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
             <div class="row">
                 <label for="name">Name</label><br/>
-                <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Enter your name!"/><br/>
+                <input id="name" class="input" name="name" type="text" value="" size="40" placeholder="Enter your name!"/><br/>
             </div>
             <div class="row">
                 <label for="email">E-mail</label><br/>
-                <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Give your e-mail address!"/><br/>
+                <input id="email" class="input" name="email" type="text" value="" size="40" placeholder="Give your e-mail address! (you@example.com)"/><br/>
             </div>
             <div class="row">
                 <label for="message">Message</label><br/>
-                <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="You can write your message to me in this box!"></textarea><br/>
+                <textarea id="message" class="input" name="message" rows="7" cols="41" placeholder="You can write your message to me in this box! (From 20 to 500 characters.)"></textarea><br/>
             </div>
-            <input id="submit_button" type="submit" value="SEND"/>
+            <!--<input id="submit_button" type="submit" value="SEND" />-->
+            <input  class= "btn btn-default", id="senderButton" type="button" value="SEND" onclick="sendMessage()"; />
         </form>
     </div>
 
@@ -37,6 +38,6 @@
         &copy; bathoryalex <strong>CodeCool</strong>
     </div>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
